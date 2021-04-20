@@ -1,0 +1,286 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.general{
+	background-color: #E0F2F1;
+}
+
+.imgLogo2{
+	margin-left: 8px;
+	width: 120px;
+	height: 120px;
+}
+
+.imgLogo1{
+	width: 105px;
+	height: 105px;
+	margin-left: 2%;
+}
+
+.titulo {
+	font-family: "georgia";
+	font-size: 50px;
+	color: white;
+    height: 2px;
+	margin-left: 25px;	
+}
+
+.lupa{
+	text-decoration: none;
+}
+
+.buscador{
+	background: #E5E7E9;
+	padding: 10px;
+	border-radius: 45px;
+	width: 230px;
+	height: 40px;
+	margin-left: 320px;
+	margin-top: 30px;
+}
+
+.buscador:hover{
+	border: 1px solid #1C2833;
+}
+
+.buscar_texto{
+	background: none;
+	border: none;
+	outline: none;
+	float: left;
+	color: #000000;
+	font-size: 15px;
+	font-family: "arial";
+	transition: .3s;
+}
+
+.prim{
+	font-family: "arial";
+	font-size: 14px;
+	text-align: center;
+    margin: 0px auto;
+    padding: 5px 5px;
+}
+
+.superior{
+	background-color: #2F7393;
+	display: flex;
+	padding: 13px 13px;
+}
+
+.menu{
+	background-color: #4991A8;
+	display: flex;
+}
+
+.intro{
+	background-color: #1C2833;
+	color: white;
+}
+
+.outro{
+	background-color: #000000;
+	color: white;
+	width: 100%;
+	height: 4px;
+}
+
+.menu a{
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 15px 15px;
+	padding: 15px 30px;
+	display: inline-block;
+	margin: auto;
+}
+
+.menu a:hover{
+	color: #ffffff;
+	box-shadow: 0px 5px 0px #ffffff;
+}
+
+.PDescuento{
+	font-size: 22px;
+	font-family: "arial";
+	margin-top: 25px;
+	text-align: center;
+}
+
+.parrafo{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 12px;
+	font-family: "arial";
+}
+
+#fotos{
+	margin-left: 4%;
+	width: 90%;
+	height: 280px;
+
+}
+
+.slider {
+	width: 95%;
+	height: 5%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0px 5px;
+	width: 400%;
+	animation: cambio 20s infinite alternate ;
+	animation-timing-function: ease-in;
+}
+
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% { margin-left: 0; }
+	20% { margin-left: 0; }
+
+	25% { margin-left: -100%; }
+	45% { margin-left: -100%; }
+
+	50% { margin-left: -200%; }
+	70% { margin-left: -200%; }
+
+	75% { margin-left: -300%; }
+	100% { margin-left: -300%; }
+
+}
+
+.galeria{
+	display: flex;
+}
+
+.oferta{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.interior{
+	display: flex;
+}
+
+.pakas{
+	padding: 10px 10px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+.pakas li{
+	font-size: 20px;
+}
+
+.precio{
+	color: #004550;
+
+}
+
+.partes{
+	font-size: 25px;
+	color: #02A2BE;
+}
+
+.registrar{
+	margin-top: 40px;
+	display: flex;
+	
+}
+
+.boton{
+	margin: 0px auto;
+	border-radius: 45px;
+	padding: 8px 30px;
+	color: white;
+	text-decoration: none;
+	background-color: #02A2BE;
+	border: solid 1px #1C2833;
+}
+
+.boton:hover{
+	color: #02A2BE;
+	background: #ffffff;
+	border-bottom: 1px solid #004550;
+}
+
+.nosotros{
+	display: flex;
+}
+
+.imagen{
+	width: 250px;
+	height: 255px;
+	padding: 20px;
+}
+
+.imagen:hover{
+	border: 1px solid #E3F2FD;
+
+}
+
+.r{
+	margin: 0px auto;
+}
+
+.titulos{
+	display: flex;
+	margin-top: 35px;
+}
+
+.tituloss{
+	display: flex;
+
+}
+
+.t{
+	margin: 0px auto;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.botn{
+	margin: 0px auto;
+	font-size: 20px;
+	padding: 10px;
+	width: 250px;
+	height: 55px;
+	text-align: center;
+	color: #ffffff;
+    border: solid 0.5px #000000;
+    border-radius:1px;
+	background: #2F7393;
+}
+
+.botn:hover{
+	border: 0.5px solid  #ffffff;
+    background: #02A2BE;
+	color: #ffffff;
+}
+
+.final{
+	margin-top: 40px;
+	background-color: #1C2833;
+	color: white;
+	padding: 20px;
+}
+
+.copy{
+	text-align: center;
+}
